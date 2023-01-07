@@ -1,8 +1,23 @@
-<router-outlet></router-outlet>
-<section class="container-fluid p-0">
-  <article class="row">
+<section class="container-fluid container-content">
+  <article class="row seccion-navbar-menu">
     <div class="col-12">
       <app-menu></app-menu>
+      <!-- <app-navbar-spy></app-navbar-spy> -->
     </div>
   </article>
+  <section class="row container-content__content-outlet">
+    <article class="col-12">
+      <router-outlet></router-outlet>
+      <app-home></app-home>
+      <app-valores></app-valores>
+      <app-cotizaciones></app-cotizaciones>
+      <app-contacto></app-contacto>
+      <app-comentarios></app-comentarios>
+    </article>
+  </section>
+  <section class="row">
+    <article class="col-12">
+      <h2>footer</h2>
+    </article>
+  </section>
 </section>
