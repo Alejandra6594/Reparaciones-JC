@@ -1,17 +1,23 @@
+.static-navbar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #000;
+}
 .bg-navbar-menu {
-  background-color: rgb(164, 198, 57);
+  background-color: #a5c639;
 }
 .container-navbar-menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.6em 0;
   font-weight: bold;
 }
 
 .container-logo {
-  width: 6rem;
-  height: 6rem;
+  width: 5.5rem;
+  height: 5.5rem;
 
   &__logo {
     border-radius: 50%;
