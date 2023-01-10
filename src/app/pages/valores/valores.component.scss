@@ -1,53 +1,31 @@
-.valores-content{
-  height: 100vh;
+.valores-content {
+  height: auto;
+  padding: 1em 0;
 }
-
-.valores-container-left{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &__titulo{
-    font-size: 3.5rem;
-    font-weight: bold;
+.container-card-values {
+  width: 25rem;
+  min-height: 15rem;
+  overflow: hidden;
+  padding: 1em 0;
+  text-align: center;
+  background: linear-gradient(-45deg, #060606, #a5c639, #a4c639, #060606);
+  background-size: 400% 400%;
+  animation: gradient 10s ease-in-out infinite;
+  color: var(--color-text-secondary);
+  &__img {
+    margin: 0 auto;
+    width: 4rem;
   }
 }
 
-.valores-container-rigth{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-card-valores{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-card-valores__container-img
-{
-  width: 19.5rem;
-  height: 6.5rem;
-  padding: .5rem;
-
-}
-
-.container-card-valores__img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.container-card-valores__title{
-  font-weight: bold;
-  font-size: 2.5rem;
-}
-
-.container-card-valores__descrption{
-  font-size: 1.1rem;
-}
-
-.container-card-valores__container-text{
-  text-align: justify;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
