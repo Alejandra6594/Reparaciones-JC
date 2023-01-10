@@ -3,11 +3,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  color: #000;
+  height: var(--heigth-navbar-menu);
+  background-color: var(--bg-color-main);
+  z-index: 1000;
 }
-.bg-navbar-menu {
-  background-color: #a5c639;
-}
+
 .container-navbar-menu {
   display: flex;
   justify-content: center;

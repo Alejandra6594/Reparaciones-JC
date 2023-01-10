@@ -1,9 +1,22 @@
-<section id="p-valores" class="container-fluid ">
+<section id="p-valores" class="container-fluid">
   <article class="row valores-content">
-    <div class="col-6  h-100 valores-container-left">
-      <h2 class="valores-container-left__titulo">NUESTROS VALORES</h2>
-    </div>
-    <div class="col-6  h-100  valores-container-rigth">
+    <section class="col-12 h-100 d-flex flex-column align-items-center">
+      <h2 class="fs-1 fw-bold mt-3">NUESTROS VALORES</h2>
+      <div class="container h-100">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-around">
+            <app-tarjeta-valores></app-tarjeta-valores>
+            <app-tarjeta-valores></app-tarjeta-valores>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 d-flex justify-content-center">
+            <app-tarjeta-valores></app-tarjeta-valores>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="col-12 h-100 valores-container-rigth">
       <div class="container-card-valores">
         <div class="container-card-valores__container-img">
           <img class="container-card-valores__img" src="../../../assets/mision.png" alt="">
@@ -45,6 +58,6 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
   </article>
 </section>
