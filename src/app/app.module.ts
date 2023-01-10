@@ -11,6 +11,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { ComentariosComponent } from './pages/comentarios/comentarios.component';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
 import { NavbarSpyComponent } from './components/navbar-spy/navbar-spy.component';
+import { TarjetaValoresComponent } from './components/tarjeta-valores/tarjeta-valores.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NavbarSpyComponent } from './components/navbar-spy/navbar-spy.component
     ComentariosComponent,
     CarrouselComponent,
     NavbarSpyComponent,
+    TarjetaValoresComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --heigth-navbar-menu: 6.5rem;
+  --padding-navbar-menu: 3rem;
+
+  --bg-color-main: #a5c639;
+
+  --color-text-main: #000;
+  --color-text-secondary: #fff;
+}
 * {
   padding: 0;
   margin: 0;
@@ -7,4 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+section[id] {
+  scroll-margin-top: calc(var(--heigth-navbar-menu));
 }
