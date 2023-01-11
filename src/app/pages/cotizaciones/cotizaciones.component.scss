@@ -1,0 +1,27 @@
+.container-cotizaciones {
+  background-color: #e0e0e088;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-brand {
+  width: 20rem;
+  min-height: 5rem;
+  max-height: 15rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+
+  &__btn {
+    background-color: var(--bg-color-main);
+    font-weight: bold;
+  }
+  &__btn:hover {
+    cursor: pointer;
+  }
+}
